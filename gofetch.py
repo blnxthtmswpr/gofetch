@@ -37,6 +37,17 @@ if {my_system.system} == {'Linux'}:
 	print("     JS^|__,  qKL")
 	print("\nCertified Linux System\n")
 
+# Change of 02-06-2025: Tested, works on mac.
+if {my_system.system} == {'Darwin'}:
+	print("\n")
+	print("     ,:,")
+	print("     --")
+	print(",---,,,---")
+	print("|        ,")
+	print("|       ( ")
+	print("(___,,___,")
+	print("\nCertified macOS System\n")
+
 # getting system info
 print(f"\nSystem: {my_system.system}")
 print(f"Release: {my_system.release}")
