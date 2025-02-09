@@ -48,6 +48,17 @@ if {my_system.system} == {'Darwin'}:
 	print("(___,,___,")
 	print("\nCertified macOS System\n")
 
+# Change of 02-08-2024: Tested, works on FreeBSD.
+if {my_system.system} == {'FreeBSD'}:
+    print("\n")
+    print("  ```                        `")
+    print(" s` `.....---.......--.```   -|")
+    print(" +o   .--`          y:`      +.")
+    print("  yo`:.            :o      `+-")
+    print("   y/               -|`   -o|")
+    print("  .-_________________::/sy+:.")
+    print("\nCertified FreeBSD System\n")
+
 # getting system info
 print(f"\nSystem: {my_system.system}")
 print(f"Release: {my_system.release}")
